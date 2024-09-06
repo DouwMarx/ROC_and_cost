@@ -1,6 +1,6 @@
 # ROC curve and associated cost
 
-Relationship between ROC curve, optimal threshold and ratio of costs of different mistakes.
+## Relationship between ROC curve, optimal threshold and ratio of costs of different mistakes.
 
 Cost can be reduced with a better model, but the optimal cost (red vertical line) is dependent on the ratios of costs. 
 ![roc_costvary_performance](https://github.com/user-attachments/assets/e5bfef2e-fc01-4cd0-a4cc-283ac8cbc9e0)
@@ -20,6 +20,6 @@ The optimal cost is dependent on the ratio of costs of mistakes. One extreme it 
 ```
 - $\text{C}_{\text{TP}} = 0$ (No cost for correctly detecting a fault)
 - $\text{C}_{\text{TN}} = 0$ (No cost for correctly detecting a healthy sample)
-- $\text{C}_{\text{FP}}$ (False alarm cost) and $\text{C}_{\text{FN}}$ (Missed detection cost) are varied.
-- $\text{C}_{\text{X}}$: Accounts for 1) Cost per occurrence 2) Prevalence of the fault
+- $`\text{C}_{\text{FP}}`$ (False alarm cost) and $\text{C}_{\text{FN}}$ (Missed detection cost) are varied.
+- $`\text{C}_{\text{X}}`$: Accounts for 1) Cost per occurrence 2) Prevalence of the fault
 - FNR = 1 - TPR
