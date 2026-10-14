@@ -23,3 +23,7 @@ The optimal cost is dependent on the ratio of costs of mistakes. One extreme it 
 - $`\text{C}_{\text{FP}}`$ (False alarm cost) and $\text{C}_{\text{FN}}$ (Missed detection cost) are varied.
 - $`\text{C}_{\text{X}}`$: Accounts for 1) Cost per occurrence 2) Prevalence of the fault
 - FNR = 1 - TPR
+
+## Revealed preference
+
+The [`revealed_preference/`](revealed_preference/) folder turns the idea around: given observed operating points across model generations, infer the cost ratio an organisation is implicitly using. Applied to AI refusal behaviour (over-refusal vs. letting harmful content through).
